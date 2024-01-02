@@ -177,7 +177,7 @@ def extract_data(site,creds,num_days,output):
 """# Выполнить запрос"""
 
 # @title
-site = 'https://www.ultimate-guitar.com' # Property to extract
+site = 'https://www.site.com' # Property to extract
 site_name = site.split("//")[1]
 num_days = 1 # Number of Days to Extract
 creds = 'client_secret.json' # Credential file from GSC.
